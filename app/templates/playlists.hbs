@@ -2,8 +2,11 @@
 {{#each model as |playlist|}}
   <h2>{{playlist.name}}</h2>
   <p>Location: {{playlist.city}}</p>
-  <p>Generated: {{playlist.createdAt}}</p>
-  <p>Date Range: {{playlist.dateRangeAbr}}</p>
+  <p>Generated At: {{playlist.created_at}}</p>
+  <p>Tags: </p>
+  {{#each playlist.tags as |t|}}
+    <p>{{t}}</p>
+  {{/each}}
 {{/each}}
 
 {{outlet}}
