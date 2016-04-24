@@ -1,9 +1,6 @@
 <h3>Playlists</h3>
-{{#each model as |playlist|}}
-  <h2>{{playlist.name}}</h2>
-  <p>Location: {{playlist.city}}</p>
-  <p>Generated: {{playlist.createdAt}}</p>
-  <p>Date Range: {{playlist.dateRangeAbr}}</p>
+{{#each model as |playlistItem|}}
+  {{playlist-detail playlist=playlistItem}}
 {{/each}}
 
 {{outlet}}
