@@ -10,7 +10,8 @@ export default function() {
           city: 'Boston',
           tags: ['ska', 'punk'],
           date_range: '',
-          uri: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg'
+          uri: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg',
+          generated: true
         }
       }, {
         type: 'playlists',
@@ -21,7 +22,8 @@ export default function() {
           city: 'Boston',
           tags: ['electronic', 'electro'],
           date_range: '',
-          uri: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg'
+          uri: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg',
+          generated: false
         }
       }, {
         type: 'playlists',
@@ -32,7 +34,8 @@ export default function() {
           city: 'New Orleans',
           tags: [],
           date_range: '',
-          uri: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg'
+          uri: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg',
+          generated: null
         }
       }]
     };

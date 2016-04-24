@@ -1,5 +1,6 @@
 <h2>{{playlist.name}}</h2>
 <p>Location: {{playlist.city}}</p>
+<p>Status: {{playlist-generation-status playlist.generated}}</p>
 {{#if areDetailsShowing}}
   <p>Tags: </p>
   {{#each playlist.tags as |t|}}
