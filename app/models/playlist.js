@@ -6,5 +6,6 @@ export default DS.Model.extend({
   city: DS.attr(),
   tags: DS.attr(),
   date_range: DS.attr(),
-  uri: DS.attr()
+  uri: DS.attr(),
+  generated: DS.attr()
 });
