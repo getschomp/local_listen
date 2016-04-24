@@ -1,0 +1,12 @@
+<h2>{{playlist.name}}</h2>
+<p>Location: {{playlist.city}}</p>
+{{#if areDetailsShowing}}
+  <p>Tags: </p>
+  {{#each playlist.tags as |t|}}
+    <p>{{t}}</p>
+  {{/each}}
+  <p>Generated At: {{playlist.created_at}}</p>
+  <button {{action "detailsHide"}}>Hide Details</button>
+{{else}}
+  <button {{action "detailsShow"}}>Show Details</button>
+{{/if}}

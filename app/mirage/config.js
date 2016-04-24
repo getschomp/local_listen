@@ -5,7 +5,7 @@ export default function() {
         type: 'playlists',
         id: 1,
         attributes: {
-          name: 'Boston Ska',
+          name: 'May Boston Ska',
           created_at: 'Today',
           city: 'Boston',
           tags: ['ska', 'punk'],
@@ -16,7 +16,7 @@ export default function() {
         type: 'playlists',
         id: 2,
         attributes: {
-          name: 'Boston Electronic',
+          name: 'April Boston Electronic',
           created_at: 'Today',
           city: 'Boston',
           tags: ['electronic', 'electro'],
